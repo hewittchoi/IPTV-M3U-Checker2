@@ -28,14 +28,7 @@ jobs:
       run: |
         mkdir -p output        
         python ${{ github.workspace }}/main.py
-
-    - name: Rename output files
-      run: |
-        for file in output/\d{8}_\d{6}\.m3u; do mv "$file" "output/result.m3u"; done
-        for file in output/\d{8}_\d{6}\.txt; do mv "$file" "output/result.txt"; done
-        for file in output/\d{8}_\d{6}\.xlsx; do mv "$file" "output/result.xlsx"; done
-        for file in output/diyp\d{8}_\d{6}\.txt; do mv "$file" "output/result_diyp.txt"; done
-                
+          
     - name: 提交更改
       run: |
         git config --local user.email "caitt2009@gmail.com"
