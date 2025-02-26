@@ -35,4 +35,4 @@ jobs:
       if: always()  # 即使失败也保留结果
       with:
         name: weekly-report
-        path: results.json
+        path: output/
