@@ -30,9 +30,12 @@ jobs:
         mkdir -p output        
         python main.py
         
-    - name: Archive results
-      uses: actions/upload-artifact@v4
-      if: always()  # 即使失败也保留结果
-      with:
-        name: weekly-report
-        path: output/
+    - name: 提交更改
+      run: |
+        git config --local user.email "caitt2009@gmail.com"
+        git config --local user.name "hewittchoi"
+        git add .
+        git commit *.txt -m "Add generated file"
+        git commit *.m3u -m "Add generated file"
+        #git pull --rebase
+        git push -f
