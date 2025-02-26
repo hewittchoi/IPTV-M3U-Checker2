@@ -30,7 +30,7 @@ jobs:
         python main.py --input playlists/ --output results.json
         
     - name: Archive results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()  # 即使失败也保留结果
       with:
         name: weekly-report
