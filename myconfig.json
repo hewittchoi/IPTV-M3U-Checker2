@@ -4,8 +4,8 @@
     "checkfile_list":["https://live.iptv365.org/live.txt",
                       "C:\\Users\\admin\\Desktop\\live.m3u"],
     "otype":7,
-    "keywords":["赣州"],
-    "sendfile_list":["/share/iptv/alltv.txt",
-                      "",
-                      "/share/iptv/tv/iptv.txt"]
+    "keywords":["深圳"],
+    "sendfile_list":["/iptv/result_diyp.txt",
+                      "/iptv/result.m3u",
+                      "/iptv/result.txt"]
 }
