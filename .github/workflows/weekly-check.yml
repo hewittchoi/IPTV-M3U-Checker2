@@ -26,7 +26,6 @@ jobs:
         
     - name: Run M3U Checker
       run: |
-        # 假设主脚本为 main.py，按需修改参数
         mkdir -p output        
         python ${{ github.workspace }}/main.py
         
@@ -34,8 +33,6 @@ jobs:
       run: |
         git config --local user.email "caitt2009@gmail.com"
         git config --local user.name "hewittchoi"
-        git add .
-        git commit *.txt -m "Add generated file"
-        git commit *.m3u -m "Add generated file"
-        #git pull --rebase
+        git add output/*.m3u output/*.txt output/*.xlsx
+        git commit -m "Add generated files"
         git push -f
