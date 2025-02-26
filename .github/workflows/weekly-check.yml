@@ -26,8 +26,9 @@ jobs:
         
     - name: Run M3U Checker
       run: |
-        # 假设主脚本为 check.py，按需修改参数
-        python main.py --input playlists/ --output results.json
+        # 假设主脚本为 main.py，按需修改参数
+        mkdir -p output        
+        python main.py --input playlists/ --output output/
         
     - name: Archive results
       uses: actions/upload-artifact@v4
