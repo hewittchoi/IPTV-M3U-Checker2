@@ -28,7 +28,7 @@ jobs:
       run: |
         # 假设主脚本为 main.py，按需修改参数
         mkdir -p output        
-        python main.py --input playlists/ --output output/
+        python main.py
         
     - name: Archive results
       uses: actions/upload-artifact@v4
