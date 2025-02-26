@@ -8,7 +8,7 @@ on:
 jobs:
   check-playlists:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # 防止超长运行
+    timeout-minutes: 300  # 防止超长运行，最长为360分钟
     
     steps:
     - name: Checkout code
