@@ -28,7 +28,7 @@ jobs:
       run: |
         # 假设主脚本为 main.py，按需修改参数
         mkdir -p output        
-        python main.py
+        python ${{ github.workspace }}/main.py
         
     - name: 提交更改
       run: |
