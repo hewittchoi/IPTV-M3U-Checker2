@@ -1,7 +1,7 @@
 {
     "testspeed":1,
     "ctype":19,
-    "checkfile_list":["https://github.com/users/project1/raw/master/iptv.txt",
+    "checkfile_list":["https://live.iptv365.org/live.txt",
                       "C:\\Users\\admin\\Desktop\\live.m3u"],
     "otype":7,
     "keywords":["赣州"],
