@@ -1,11 +1,15 @@
 {
-    "testspeed":1,
-    "ctype":19,
-    "checkfile_list":["https://live.iptv365.org/live.txt",
-                      "C:\\Users\\admin\\Desktop\\live.m3u"],
-    "otype":7,
-    "keywords":["深圳"],
-    "sendfile_list":["/iptv/result_diyp.txt",
-                      "/iptv/result.m3u",
-                      "/iptv/result.txt"]
+    "testspeed": 1,
+    "ctype": 19,
+    "checkfile_list": [
+        "https://live.iptv365.org/live.txt",
+        "C:\\Users\\admin\\Desktop\\live.m3u"
+    ],
+    "otype": 7,
+    "keywords": ["深圳"],
+    "sendfile_list": [
+        "/iptv/result_diyp.txt",
+        "/iptv/result.m3u",
+        "/iptv/result.txt"
+    ]
 }
