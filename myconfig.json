@@ -7,7 +7,7 @@
     ],
     "otype": 7,
     "keywords": ["深圳"],
-    "max_check_count": 4000,
+    "max_check_count": 20000,
     "sendfile_list": [
         "/iptv/result_diyp.txt",
         "/iptv/result.m3u",
