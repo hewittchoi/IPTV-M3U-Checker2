@@ -1,5 +1,5 @@
 {
-    "testspeed": 1,
+    "testspeed": 0,
     "ctype": 19,
     "checkfile_list": [
         "https://live.iptv365.org/live.txt"
@@ -12,10 +12,5 @@
         "/iptv/result_diyp.txt",
         "/iptv/result.m3u",
         "/iptv/result.txt"
-    ],
-    "comments": {
-        "checkfile_list": [
-            "C:\\Users\\admin\\Desktop\\live.m3u"
-        ]
-    }
+    ]
 }
