@@ -3,7 +3,7 @@
     "ctype": 19,
     "checkfile_list": [
         "https://live.iptv365.org/live.txt",
-        "C:\\Users\\admin\\Desktop\\live.m3u" // 本地文件地址示例
+        "C:\\Users\\admin\\Desktop\\live.m3u"
     ],
     "otype": 7,
     "keywords": ["深圳"],
