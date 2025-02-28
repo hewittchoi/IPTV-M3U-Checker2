@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="深圳卫视"  group-title="服务器5（drive）",深圳卫视
+http://drive.mxmy.net:8888/udp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视"  group-title="服务器7（lt.hxtre.com）",深圳卫视
+http://lt.hxtre.com:35455/itv/1000000001000011645.m3u8?cdn=ystenlive
