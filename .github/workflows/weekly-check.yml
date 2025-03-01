@@ -1,8 +1,8 @@
-name: Weekly M3U Check
+name: Daily M3U Check
 on:
   schedule:
     # 每周日 00:00 UTC 触发 (北京时间周一 8:00)
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
