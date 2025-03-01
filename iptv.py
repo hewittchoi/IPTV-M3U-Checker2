@@ -413,7 +413,7 @@ class Iptv(object):
             title = time.strftime("%Y%m%d_%H%M%S", time.localtime())  #+ '_' + secrets.token_urlsafe(16)
 
             if(ctype & 0x01 >0):   #'diyp'        
-                fname="./%s/diyp%s.txt" % (self.output_file, title)
+                fname="./%s/result_diyp.txt" % self.output_file
                 with open(fname, 'w', encoding='utf-8') as file:
                     tvgroup=''
                     prev_uniquename=''
@@ -433,7 +433,7 @@ class Iptv(object):
                     fnamelist.append(fname)
 
             if(ctype & 0x02 >0 ):   #'txt'        
-                fname="./%s/%s.txt" % (self.output_file, title)
+                fname="./%s/result.txt" % self.output_file
                 with open(fname, 'w', encoding='utf-8') as file:
                     tvgroup=''
                     for i in df.index:                
@@ -449,7 +449,7 @@ class Iptv(object):
                     fnamelist.append(fname)
 
             if(ctype & 0x04 >0):   #'m3u'        
-                fname="./%s/%s.m3u" % (self.output_file, title)
+                fname="./%s/result.m3u" % self.output_file
                 with open(fname, 'w', encoding='utf-8') as file:
                     tvgroup=''
                     prev_uniquename=''
@@ -466,7 +466,7 @@ class Iptv(object):
                     df.style
                     .set_properties(**{'text-align': 'center'})
                     .applymap(color_cell, subset=['delay'])
-                    .to_excel("./%s/%s.xlsx" % (self.output_file, title), index=False)
+                    .to_excel("./%s/result.xlsx" % self.output_file, index=False)
             )
             #df.to_csv("./%s/%s.txt" % (self.output_file, title),header=None,index=None,sep=',')
         return fnamelist

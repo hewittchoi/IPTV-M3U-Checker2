@@ -2,11 +2,12 @@
     "testspeed": 0,
     "ctype": 19,
     "checkfile_list": [
-        "",
-        ""
+        "https://ghproxy.cc/https://raw.githubusercontent.com/hewittchoi/iptv-api/refs/heads/master/config/user_local.txt",
+        "https://live.iptv365.org/live.txt",
+        "https://live.zbds.top/tv/iptv4.txt"
     ],
     "otype": 7,
-    "keywords": ["深圳"],
+    "keywords": [""],
     "max_check_count": 20000,
     "sendfile_list": [
         "/iptv/result_diyp.txt",

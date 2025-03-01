@@ -1,5 +1,0 @@
-
-服务器5（drive）,#genre#
-深圳卫视,http://drive.mxmy.net:8888/udp/239.3.1.134:8020
-服务器7（lt.hxtre.com）,#genre#
-#http://lt.hxtre.com:35455/itv/1000000001000011645.m3u8?cdn=ystenlive
