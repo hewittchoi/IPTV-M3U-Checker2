@@ -10,8 +10,8 @@
     "keywords": [""],
     "max_check_count": 20000,
     "sendfile_list": [
-        "/iptv/result_diyp.txt",
-        "/iptv/result.m3u",
-        "/iptv/result.txt"
+        "./iptv/result_diyp.txt",
+        "./iptv/result.m3u",
+        "./iptv/result.txt"
     ]
 }
