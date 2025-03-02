@@ -246,7 +246,7 @@ class Iptv(object):
             #去除>MaxSourceCount的多余行 
             dflist=dflist[:self.MaxSourceCount]
 
-            
+            '''
             if(ctype & 0x08 >0 ):   #仅测试
                 tmp_table='tmp_'+self.DB.table
                 df.to_sql(name=tmp_table,con=self.DB.conn,index=False,if_exists='replace')
@@ -266,14 +266,8 @@ class Iptv(object):
             df=self.DB.querypd(f'select title,uniquename,tvorder from tvorders where tvorder<9999 ')
             dflist=pd.merge(dflist,df,how='left',on='title')
             dflist.rename(columns={'uniquename_y':'uniquename'},inplace=True)
-            # 检查列是否存在再删除
-            if 'uniquename_x' in dflist.columns:
-                dflist.drop(columns=['uniquename_x'], inplace=True)
-            if 'tvgroup_x' in dflist.columns:
-                dflist.drop(columns=['tvgroup_x'], inplace=True)
             '''
-            dflist.drop(columns=['uniquename_x','tvgroup_x'],inplace=True) #原代码
-            '''
+            dflist.drop(columns=['uniquename_x','tvgroup_x'],inplace=True)
         else:
             dflist=pd.DataFrame()
         
