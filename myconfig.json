@@ -13,6 +13,7 @@
     ],
     "otype": 7,
     "keywords": [""],
+    "max_check_count": 50000,
     "sendfile_list": [
         "./iptv/result_diyp.txt",
         "./iptv/result.m3u",
