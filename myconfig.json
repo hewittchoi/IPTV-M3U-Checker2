@@ -3,7 +3,6 @@
     "ctype": 19,
     "checkfile_list": [
         "https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt",
-        "https://ghproxy.cc/https://raw.githubusercontent.com/hewittchoi/iptv-api/refs/heads/master/config/user_local.txt",
         "https://ghproxy.cc/https://raw.githubusercontent.com/hsh58/ds/refs/heads/master/ds.txt",
         "https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/cfe22eb9ffe49d50370a686ca8ed95031a5ee8b5/txt/IPTV.txt",
         "https://ghproxy.cc/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt",
